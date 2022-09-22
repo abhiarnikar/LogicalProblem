@@ -1,0 +1,91 @@
+1.  Prime number
+
+2.  Factorial
+
+3.  Fibonacii series (1 1 2 3 5 8 ...)
+
+4.  Star pattern questions
+
+5.  Reverse an array
+
+6.  Reverse an array using single for loop
+
+7.  Sort an array
+
+8.  Check if array is sorted
+
+9.  Find count of a given number in an array
+
+10. Find pair of elements in array with sum equal to k
+
+11. Union,set,intersection of elements of different arrays
+
+12. Can a given array be made strictly increasing or not(based on current elements)
+
+13. Find maximum/minimum in array in single scan
+
+14. Reverse a number and a string
+
+15. Finding square root/cube root of a number (without inbuilt method)
+
+16. Find power of a number(if x power y=z,find y)
+
+17. Check if a given string is a palindrome 
+
+18. Check if given series of numbers is permutation or not 
+
+19. Filter out numbers from given strings
+
+20. Count number of vowels and consonants from given string 
+
+21. Find GCD and LCM of a number
+
+22. Find coordinates of elements of 2D array which are perfect squares 
+
+23. Given a time in H:M format and a variable alarm time h:m ,find difference of time between them in hr:mn format
+
+24. Convert '4a2b3c' to 'aaaabbccc'
+
+25. Convert a given mixed string to toUppercase or toLowercase (without inbuilt methods)
+
+26. Filter out a string like ')gh67%##22fde' with only alphabets
+
+27. Find char with heighest occurence in a given string
+
+28. check if given substring is present in other string 
+
+29. Find minimum number of steps to make product of all elements of array equal to 1.
+
+30. Given an initial position say x(number located on a number line) and n steps , if the ith step is even ,move x to left by i units and if odd then move x to right by i units . Likewise find position of x after n steps .1<=i<=n.
+
+31. Find smallest positive number n such that sum of its digits is exactly equal to given x and without repetition of digits (ex for x=25,n=1789).https://codeforces.com/problemset/problem/1462/C
+
+32. You have a 3 Rs coins and 7 Rs coins .Given an amount n ,check if the amount i.e n can be paid with use of only 3 Rs coins and 7 Rs coins or not .(ex. for n=19, 3x4+7x1=19).
+
+33. Given certain tickets available with 7 colours(VIBGYOR)and n people numbered from 1 to n, 1st person gets ticket with colour Voilet,2nd with Indigo,3rd with blue ,7 th with red ..... 8th with again voilet , 9th with indigo and so on uptil n . Find which colour of ticket nth person will get .
+
+34. Given an array a ,find pairs of elements which have sum and product equal.
+
+35. Chef has 3 bags that she wants to take on a flight. They weigh A, B, and C kgs respectively. She wants to check-in exactly two of these bags and carry the remaining one bag with her.The airline restrictions says that the total sum of the weights of the bags that are checked-in cannot exceed DD kgs and the weight of the bag which is carried cannot exceed E kgs. Find if Chef can take all the three bags on the flight.
+
+36. There are 101 citizens in Chefland. It is election time in Chefland and 3 parties, A,B, and C are contesting the elections. Party A receives xa votes ,party B receives xb votes and c receives xc votes.The constitution of Chefland requires a particular party to receive a clear majority to form the government. A party is said to have a clear majority if it receives strictly greater than 50 votes.If any party has a clear majority, print the winning party (A, B or C). Otherwise, print NOTA.
+
+37. Write a program to obtain 2 numbers  (A and B) and an arithmetic operator (C) and then design a calculator depending upon the operator entered by the user.If C='+' in ACB,then add 2 A+B etc.
+
+38. In an array check how many elements are greater than their adjacent ones. i.e a<b>c find count of b in array.
+
+39. In an unsorted array ,let index of element x be i, find index of x after sorting.
+
+40. Check if a given number is armstrong number (check if sum of cube of its digits is equal to the number itself). 
+
+41. Find MEX of array .
+
+42. Check if string is a substring of another string and give index of first occurence.
+
+43. given [1,2,3] add 1 to 123 and output [1,2,4] or [9,9,9]->[1,0,0,0]
+
+44.Given nxm matrix and tiles of dimensions 2x2 and 1x1. Find minimum no. of 1x1 tiles required to fill all boxes of matrix.
+
+45.Let's define 𝑆(𝑥) to be the sum of digits of number 𝑥 written in decimal system. For example, 𝑆(5)=5, 𝑆(10)=1, 𝑆(322)=7. We will call an integer 𝑥 interesting if 𝑆(𝑥+1)<𝑆(𝑥). In each test you will be given one integer 𝑛. Your task is to calculate the number of integers 𝑥 such that 1≤𝑥≤𝑛 and 𝑥 is interesting.
+
+46.https://codeforces.com/problemset/problem/1557/A
