@@ -13,7 +13,7 @@ let info2 = {
 
 //call
 
-//call method is used for function borrowing we can borrow functiona
+// call method is used for function borrowing we can borrow function
 // from other objects and use it with the data with some other objects
 
 info1.display.call(info2, 'pune','Maharastra')

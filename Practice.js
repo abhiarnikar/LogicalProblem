@@ -1,103 +1,114 @@
-// let A = [1,2,3,4,5] 
-// //output ==> [14,13,12,11,10]
-// let B = []
-// for(let i=0; i<A.length; i++){
-//     let a = 0
-//     for(let j=0; j<A.length; j++){
-//         if(i==j){
-//             continue
-//         }
-//         a = a + A[j]
-//     }
-//      B.push(a)
-// }
+// program 1
+//JavaScript Program to Check Prime Number
 
-// console.log(B)
+function primeNo(num){
+    let count = 0
+    for(let i=2;i<num-1;i++){
+        if(num%i==0){
+            count++
+        }  
+    }
 
-// 1. reverse  string
-// let word = 'kaivaly'
-// let rev = ''
-// for (let i = 0; i < word.length; i++) {
-//     rev = word[i] + rev
-// }
-// console.log(rev)
+    if(count!=0){
+        console.log('Number is not Prime')
+    }
+    else{
+        console.log('Number is prime')
+    }
 
-// // with function
+}
+primeNo(5)
+primeNo(8)
 
-// function greet() {
-//     let word = 'kaivaly'
-//     let rev = ''
-//     for (let i = 0; i < word.length; i++) {
-//         rev = word[i] + rev
-//     }
-//     console.log(rev)
+// program 2
+//Javascript Program to Check if a number is Positive, Negative, or Zero
 
-// }
-// greet()
+function checkNumber(num){
+    if(num==0){
+        console.log('number is 0')
+    }
+    else if(num>0){
+        console.log('number is +ve')
+    }
+    else{
+        console.log('number is -ve')
+    }
+}
+checkNumber(-9)
+checkNumber(45)
+checkNumber(0)
 
-// function greet1(str){
-//     let rev=''
-//     for(let i=0;i<str.length;i++){
-//         rev= str[i]+rev
-//     }
-//     console.log(rev)
-// }
-// greet1('abhijit')
-// greet1('krushna')
+// program 3
+// // JavaScript Program to Swap Two Variables
 
-// 2. count vowels(a,e,i,o,u) in below string
+let A =50
+let B=10
+let C=A
+A=B
+B=C
+console.log(A)
+console.log(B)
 
-// let info = 'my name is abhijit'
-// let count=0
-// for(let i=0;i<info.length;i++){
-//     if(info[i]=='a'||info[i]=='e'||info[i]=='i'||info[i]=='o'||info[i]=='u'){
-//         count=count+1
-//     }
-// }
-// console.log(count)
+//program 4
+// // JavaScript Program to Find the Square Root
 
-// // count the each vowel in the string
+console.log(Math.sqrt(36))
+console.log(Math.cbrt(729))
 
-// let k=[]
-// for(let i=0;i<info.length;i++){
-//     if(info[i]=='a'||info[i]=='e'||info[i]=='i'||info[i]=='o'||info[i]=='u'){
-//         if(k[info[i]]){
-//             k[info[i]]=Number(k[info[i]])+1
-//         }
-//         else{
-//             k[info[i]]=1
-//         }
-//     }
-// }
-// console.log(k)
+//program 5
+// find age
+// Using for loop
+let birthYear = [2000,2002,2001]
 
-// Capital only first letter  in string
+let ages = []
+for(let i=0;i<birthYear.length;i++){
+    let age = 2022-birthYear[i]
+    ages.push(age)
+}
+console.log(ages)
 
-//let str = 'devyani'
-// let cap=str[0].toUpperCase()+str.slice(1)
-// console.log(cap)
+let aa = birthYear.map(function(el,index,arr){
+    return 2022-el
+})
+console.log(aa)
 
-// with help of loop
-// let cap =''
-// for(let i=0; i<str.length; i++){
-//    if(i==0){
-//     cap =cap + str[i].toUpperCase()
-//    }else{
-//     cap = cap + str[i]
-//    }
-// }
-// console.log(cap)
+// program 6
+//sort method working
 
-//2.LOGICAL -- convert to upper case of each word first letter in given sentence
+// Example 1
 
-// let info = 'my name is abhijit arnikar'
+let ja = [1245,33,133,1453,13]
+console.log(ja.sort(function(a,b){
+    return a-b
+}))
 
-// let A = []
-// let B = info.split(' ')
-// console.log(B)
-// for(let i=0;i<B.length;i++){
-//     let a = B[i][0].toUpperCase()+B[i].slice(1)
-//     A.push(a)
-// }
-// console.log(A.join(' '))
+// Example 2
+
+let bb = [45,69,52,78,147,36,784,254,366,45,78]
+
+let cc = bb.sort(function(a,b){
+    return a-b
+})
+console.log(cc)
+
+// program 7
+// // Q. seperate small and capital characters from string
+
+let str = 'sjdhfjsdDJHDUHnsjdIRPE'
+
+function sepCapSmall(str){
+    let cap = []
+    let small = []
+    for(let i=0;i<str.length;i++){
+        if(str[i]>='A'&&str[i]<='Z'){
+            cap.push(str[i])
+        }
+        else{
+            small.push(str[i])
+        }
+    }
+    console.log(cap)
+    console.log(small)
+}
+sepCapSmall(str)
 
