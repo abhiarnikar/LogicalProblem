@@ -5,6 +5,8 @@ console.log(Number("4"))
 
 //REpeat method in string
 
+// 1st Method
+
 let jkl = "a".repeat(5)
 console.log(jkl)
 let bb = "g".repeat(6)
@@ -17,6 +19,10 @@ for(let i=0;i<a.length;i++){
 
 }
 console.log(result)
+
+// 2nd Method
+
+
 
 for(let i =0;i<a.length;i++){
     if(Number(a[i])){
