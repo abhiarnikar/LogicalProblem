@@ -190,7 +190,7 @@ let min = arr1.reduce(function (acc, el, index, arr) {
 console.log(min)
 
 // Problem 12
-// Problem = Remove string first and last characters(substring) from given string
+// Problem = Remove first and last characters(substring) from given string
 
 let str = 'abhijitarnikar'
 let aa = ''
