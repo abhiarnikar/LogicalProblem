@@ -27,7 +27,22 @@ console.log(bb)
 // 1st way
 let arr2 = [14,57,96,36,45,25]
 
-let secondLarge = arr2.sort().reverse()
-console.log(secondLarge[1])
+// program 6
+//sort method working
 
+// Example 1
+
+let ja = [1245,33,133,1453,13]
+console.log(ja.sort(function(a,b){
+    return a-b
+}))
+
+// Example 2
+
+let bb1 = [45,69,52,78,147,36,784,254,366,45,78]
+
+let cc = bb1.sort(function(a,b){
+    return a-b
+})
+console.log(cc)
 

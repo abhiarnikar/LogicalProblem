@@ -16,6 +16,6 @@ addNumber(12,25,36,36)
 
 // function overloading is not happening in javascript
 // because in javascript browser takes Top to Down Approach
-// so that first two functions is discarded so third function is printed
+// so that first two functions is discarded and third function is printed
 
 

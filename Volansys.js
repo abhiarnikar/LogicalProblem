@@ -24,7 +24,7 @@ let aa = "abhi123jit"
 let rev1 = ''
 
 for(let i=0;i<aa.length;i++){
-    if(aa[i] !==123){
+    if(aa[i] !=123){
         rev1=aa[i]+rev1
     }
 }

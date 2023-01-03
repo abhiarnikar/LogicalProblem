@@ -21,9 +21,6 @@ for(let i=0;i<a.length;i++){
 console.log(result)
 
 // 2nd Method
-
-
-
 for(let i =0;i<a.length;i++){
     if(Number(a[i])){
         for(let j=0;j<Number(a[i]);j++){
@@ -32,6 +29,17 @@ for(let i =0;i<a.length;i++){
     }
 }
 console.log(result)
+
+// example 2
+let b = 'p4q3r2s1'
+let xx = ''
+
+for(let i=0;i<b.length;i++){
+    if(Number(b[i+1])){
+        xx = xx+b[i].repeat(Number(b[i+1]))
+    }
+}
+console.log(xx)
 
 let k= {}
 let name = "abhijitdevayniouue"
