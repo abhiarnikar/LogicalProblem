@@ -1,4 +1,3 @@
-
 // 1) reverse the string
 let word = "abhijit"
 let rev = ''
