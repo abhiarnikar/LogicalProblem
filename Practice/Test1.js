@@ -245,9 +245,301 @@
 // primeNo(7)
 // primeNo(4)
 
-let str ='ABHijit arniKAR'
+// let str ='ABHijit arniKAR'
 
-function sepCapSmall(str){
-    let cap = []
-    let small = []
+// function sepCapSmall(str){
+//     let cap = []
+//     let small = []
+//     for(let i=0;i<str.length;i++){
+//         if(str[i]>='A'&&str[i]<='Z'){
+//             cap.push(str[i])
+//         }
+//         else{
+//             small.push(str[i])
+//         }
+//     }
+//     console.log(cap)
+//     console.log(small)
+// }
+// sepCapSmall(str)
+
+// function expand(strA){
+//     let A = ''
+//     for(let i=1;i<strA.length;i=i+1){
+//         A=A+strA[i-1].repeat(strA[i])
+//     }
+//     console.log(A)
+// }
+// expand('A3B2C1')
+
+// function expand(strA){
+//     let A = ''
+//     for(let i=0;i<strA.length;i=i+2){
+//         A=A+strA[i+1].repeat(strA[i])
+//     }
+//     console.log(A)
+// }
+// expand('3P2Q1R')
+
+// // // remove duplicate elements from the arrey
+
+// let arr = [11,22,33,44,22,11]
+
+// let set = new Set(arr)
+// console.log(set)
+
+// let aa = []
+
+// for(let i=0;i<arr.length;i++){
+//     if(! aa.includes(arr[i])){
+//         aa.push(arr[i])
+//     }
+// }
+// console.log(aa)
+
+// let word = 'AbhijitArnikar'
+// let cc = ''
+// for(let i=0;i<word.length;i++){
+//     if(i !=0&& i !=word.length-1){
+//         cc=cc+word[i]
+//     }
+// }
+// console.log(cc)
+
+// console.log(word.slice(1,13))
+
+// function seperate(str){
+//     let num =''
+//     let char = ''
+//     for(let i=0;i<str.length;i++){
+//         if(Number(str[i])){
+//             num=num+str[i]
+//         }
+//         else{
+//             char=char+str[i]
+//         }
+//     }
+// console.log(num)
+// console.log(char)
+
+// }
+// seperate('devarnikar725@gmail.com')
+
+// let mail = 'abhiarnikar725@gmail.com'
+// let aaa = ''
+// for(let i=0;i<mail.length;i++){
+//     if(i==0){
+//         aaa=aaa+mail[i].toUpperCase()
+//     }
+//     else if(mail[i]=='@'){
+//         break
+//     }
+//     else{
+//         aaa=aaa+mail[i]
+//     }
+// }
+// console.log(aaa)
+
+// Capital only first letter  in string
+
+// let word = 'abhijit'
+// let zz = word[0].toUpperCase()+word.slice(1)
+// console.log(zz)
+
+// // 2.LOGICAL -- convert to upper case of each word first letter in given sentence
+
+// let info = 'i am living in pune'
+// let aa = info.split(' ')
+// console.log(aa)
+// let bb = []
+
+// for(let i=0;i<aa.length;i++){
+//     let A = aa[i][0].toUpperCase()+aa[i].slice(1)
+//     bb.push(A)
+// }
+// console.log(bb.join())
+
+// promises
+
+// let pro = new Promise(function(resolve,reject){
+//     let a = 10
+//     let b = 5
+//     if(a>b){
+//         resolve('true')
+//     }
+//     else{
+//         reject('false')
+//     }
+// }).then(function(str){
+//     console.log('comparision is correct',str)
+// },function(str){
+//     console.log('comparision is wrong',str)
+// })
+
+// destructure
+
+// let names  = [['abhijit','kaivaly'],['ram','krushna'],['devayni','vaishnavi']]
+
+// let [[a1,a2],[a3,a4],[a5,a6]]=names
+// console.log(a2)
+// console.log(a4)
+
+// let info = {
+//     firstName:'abhijit',
+//     lastName:'arnikar',
+//     city:'pune',
+//     language:'marathi'
+// }
+// let {firstName:fn,lastName:ln,city:ct,language:lg}=info
+// console.log(fn)
+// console.log(ln)
+
+// let info = new Map()
+// console.log(info)
+
+// info.set(31,'age')
+// info.set('lastName','arnikar')
+// info.set(true,'is married')
+// console.log(info)
+
+// console.log(info.size)
+// console.log(info.has('lastName'))
+
+// console.log(info.get(true))
+
+// let names = new Set()
+// console.log(names)
+// names.add('abhi')
+// names.add('vishwa')
+// names.add('ram')
+// names.add('abhi')
+
+// console.log(names)
+
+// function greet(...array){
+//     console.log(array)
+// }
+// greet(45,36,85,74,69,12)
+
+// let a = [11,22,33]
+// console.log(...a,78,45,69)
+
+
+// // creating objects
+
+// let info = {
+//     firstName:"abhijit",
+//     lastName:'arnikar',
+//     city:'pune'
+// }
+
+// function Person(fn,ln,ct){
+//     this.firstName=fn
+//     this.lastName=ln
+//     this.city=ct
+//     // this.display=function(){
+//     //     console.log(this.city)
+//     // }
+// }
+
+// let abhi = new Person('krushna','arnikar','Pune')
+// console.log(abhi)
+// // abhi.display()
+
+// abhi.language= 'marathi'
+// console.log(abhi)
+
+// console.log(abhi.__proto__==Person.prototype)
+// Person.prototype.state="MH"
+
+// console.log(abhi.state)
+
+// console.log(abhi.hasOwnProperty('state'))
+
+// Person.prototype.display=function(){
+//     console.log(this.city)
+// }
+
+// abhi.display()
+
+// class Person{
+
+//     setFirstname(fn){
+//         this.firstName=fn
+//     }
+
+//     getFirstname(){
+//         return this.firstName
+//     }
+
+//     setCity(ct){
+//         this.city=ct
+//     }
+
+//     getCity(){
+//         return this.city
+//     }
+// }
+
+// let kaivaly = new Person()
+// console.log(kaivaly)
+
+// kaivaly.setFirstname('Kaivaly')
+// kaivaly.setCity('pune')
+// console.log(kaivaly)
+
+// console.log(kaivaly.getFirstname())
+// console.log(kaivaly.getCity())
+
+// class father{
+//     constructor(fn,ln){
+//         this.firstName=fn
+//         this.lastName=ln
+//     }
+//     display=function(){
+//         console.log(this.firstName)
+//     }
+// }
+
+// class son extends father{
+//     constructor(sfn,fn,ln){
+//         super(fn,ln)
+        
+//         this.sfirstName=sfn
+//     }
+//     display=function(){ 
+//         console.log(this.sfirstName)
+       
+//     }
+// }
+
+// let abhi = new son('Abhijit','Ashok','Arnikar')
+// console.log(abhi)
+// console.log(abhi.sfirstName)
+// //console.log(abhi.firstName)
+
+// abhi.display()
+
+// let ashok = new father('Ashok','Arnikar')
+// ashok.display()
+
+class Animal{
+    constructor(nm){
+        this.name=nm
+    }
+    color(){
+        console.log(this.name+' brown')
+    }
 }
+
+class chitta extends Animal{
+
+    color(){
+        console.log(this.name+' red')
+        super.color()
+        
+    }
+}
+
+let AAA = new chitta('greet')
+AAA.color()

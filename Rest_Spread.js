@@ -13,7 +13,7 @@
 function greet(...array){
     console.log(array)
 }
-greet(45,36,36,8,51,63,41,79,25)
+greet(36,25,45,36,36,8,51,63,41,79,25)
 
 
 // spread operator
