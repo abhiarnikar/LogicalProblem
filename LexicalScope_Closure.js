@@ -18,9 +18,9 @@ add()
 
 // Closure
 
-//closure is an inner function that has access to the outer functions variables
+// closure is an inner function that has access to the outer functions variables
 
-//for every closure that has three scope
+// for every closure that has three scope
 // 1 Local scope
 // 2 Outer functions scope
 // 3 Global Scope
