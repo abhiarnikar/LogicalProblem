@@ -32,7 +32,7 @@ console.log(8 + "9")
 for(let i=1;i<=5;i++){
     let a = ''
     for(let j=1;j<=i;j++){
-        a+='* '
+        a+='* ' // a=a+'* '
     }
     console.log(a)
 

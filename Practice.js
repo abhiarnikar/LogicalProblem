@@ -280,7 +280,7 @@ console.log(vv)
 let xx = []
 let yy = info.split(' ')
 for(let i=0;i<yy.length;i++){
-    let z = yy[i][0].toUpperCase()+yy[i].slice(1)
+    let z = yy[i][0].toUpperCase+yy[i].slice(1)
     xx.push(z)
 }
 console.log(xx.join(' '))
