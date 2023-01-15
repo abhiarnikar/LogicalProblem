@@ -467,29 +467,185 @@
 
 // console.log(names.join(' '))
 
-let person = {
-    firstname:'abhijit',
-    lastName:'arnikar',
-    age:30
-}
+// let person = {
+//     firstname:'abhijit',
+//     lastName:'arnikar',
+//     age:30
+// }
 
-console.log(person.lastName)
+// console.log(person.lastName)
 
-person.language = 'marathi'
+// person.language = 'marathi'
 
-person.firstname = 'kaivaly'
+// person.firstname = 'kaivaly'
 
-console.log(person)
+// console.log(person)
 
-delete person['language']
+// delete person['language']
 
-console.log(person)
+// console.log(person)
 
-for(let key in person){
-    console.log(key)
-}
+// for(let key in person){
+//     console.log(key)
+// }
 
-for(let key in person){
-    console.log(key,person[key])
-}
+// for(let key in person){
+//     console.log(key,person[key])
+// }
+
+
+// let pro  = new Promise(function(resolve,reject){
+//     let a = 10
+//     let b = 5
+//     if(a>b){
+//         resolve('true')
+//     }
+//     else{
+//         reject('false')
+//     }
+// }).then(function(str){
+//     console.log('comparision is correct '+str)
+// },function(str){
+//     console.log('comparision is wrong '+str)
+// })
+
+// let pro1  = new Promise(function(resolve,reject){
+//     let a = 10
+//     let b = 5
+//     if(a<b){
+//         resolve('true')
+//     }
+//     else{
+//         reject('false')
+//     }
+// }).then(function(str){
+//     console.log('comparision is correct '+str)
+// },function(str){
+//     console.log('comparision is wrong '+str)
+// })
+
+// function person(fn,ln,ag){
+//     this.firstname =fn
+//     this.lastname=ln
+//     this.age=ag
+// }
+
+// let abhi = new person('Abhijit','Arnikar',30)
+// console.log(abhi)
+
+// person.prototype.display=function(city){
+//     console.log(this.firstname+' '+city)
+// }
+
+// abhi.display('pune')
+
+// person.prototype.language = 'Marathi'
+
+// console.log(abhi.language)
+
+// console.log(abhi.__proto__==person.prototype)
+
+// class info {
+//     constructor(fn,ln,ct){
+//         this.firstname=fn
+//         this.lastname=ln
+//         this.city=ct
+//     }
+
+//     display(){
+//         console.log(this.city)
+//     }
+// }
+
+// let kaivaly= new info('Kaivaly','Arnikar','Mumbai')
+// kaivaly.display()
+
+// console.log(kaivaly.firstname)
+
+// class father{
+//     constructor(fn,ln){
+//         this.firstname=fn
+//         this.lastname=ln
+//     }
+//     displayF(){
+//         console.log(this.firstname)
+//     }
+// }
+
+// class son extends father{
+//     constructor(fn,ln,sfn){
+//         super(fn,ln)
+//         this.sfirstname=sfn
+//     }
+//     displayS(){
+//         console.log(this.sfirstname)
+//     }
+// }
+
+// let abhi = new son('Ashok','Arnikar','Abhijit')
+
+// abhi.displayS()
+// abhi.displayF()
+// console.log(abhi.firstname)
+// console.log(abhi.sfirstname)
+
+// let ashok = new father('Ashok','Arnikar')
+// ashok.displayF()
+
+// let names  = [['Abhijit','Devyani'],['Ashok','Sunanda'],['Vishwajeet','Vaishnavi']]
+
+// let [[a1,a2],[b1,b2],[c1,c2]]=names
+// console.log(a1)
+
+// console.log(b2)
+
+// let info = {
+//     firstname:'Kaivaly',
+//     lastname:'Arnikar',
+//     city:'Pune'
+// }
+
+// let {firstname:fn,lastname:ln,city:ct}=info
+// console.log(fn)
+
+// console.log(ln)
+
+let info = new Map()
+console.log(info)
+
+info.set(31,'age')
+info.set('arnikar','firstname')
+info.set(true,'is married')
+
+console.log(info)
+
+console.log(info.size)
+
+console.log(info.has(31))
+
+console.log(info.get(true))
+
+info.delete(true)
+
+console.log(info)
+
+let marks = new Set()
+
+console.log(marks)
+marks.add(30)
+marks.add(45)
+marks.add(56)
+marks.add(30)
+marks.add(47)
+marks.add(45)
+
+console.log(marks)
+
+console.log(marks.has(30))
+
+console.log(marks.size)
+
+marks.forEach((el)=>{
+    console.log(el)
+})
 
