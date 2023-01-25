@@ -38,6 +38,8 @@ for(let i=1;i<=5;i++){
 
 }
 
+
+
 // Problem 4
 // What is callBack Hell
 
@@ -46,10 +48,10 @@ for(let i=1;i<=5;i++){
 // It makes the code very difficult to understand and maintain.
 
 // Example
-runDirection(100,'Top',function(){
-    runDirection(200,'right',function(){
-        runDirection(300,'left',function(){
+// runDirection(100,'Top',function(){
+//     runDirection(200,'right',function(){
+//         runDirection(300,'left',function(){
             
-        })
-    })
-})
+//         })
+//     })
+// })
