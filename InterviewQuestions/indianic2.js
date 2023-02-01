@@ -8,7 +8,7 @@
 // - Repeat the Process
 
 // due to this Behaviour, TDD sometimes also called as Test First Development
-// in which we are testing the code while developing it
+// in which we are testing the code while developing it.
 
 // * Difference
 
@@ -18,7 +18,7 @@
 
 // 2.
  
-// TDD approach is basically used for the unit of modular Framework
+// TDD approach is basically used for the unit of modular Framework.
  
 // BDD approach is basically used with Hybrid or data-driven framework.
 

@@ -42,7 +42,7 @@ console.log(ja.sort(function(a,b){
 let bb1 = [45,69,52,78,147,36,784,254,366,45,78]
 
 let cc = bb1.sort(function(a,b){
-    return a-b
+    return b-a
 })
 console.log(cc)
 

@@ -7,10 +7,10 @@ function add() {
     let a = 10
     let b = 5
 
-    console.log(a+b)
+    console.log(a + b)
 
-    function addition(){
-        console.log(a+b)
+    function addition() {
+        console.log(a + b)
     }
     addition()
 }
@@ -27,13 +27,13 @@ add()
 
 // Example
 
-function outer(){
-    let a =10
-    function inner(){
-        let b =5
-        console.log(a+b)
+function outer() {
+    let a = 10
+    return function inner() {
+        let b = 5
+        console.log(a + b)
     }
-    return inner
+
 }
 let out = outer()
 out()

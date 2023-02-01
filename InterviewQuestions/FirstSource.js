@@ -18,7 +18,7 @@
 // },3000)
 
 // in the above example it gives error at the line no 11 so code can't executed after 
-// 1st settimeout to overcome this problem we apply try and catch method
+// 1st settimeout,to overcome this problem we apply try and catch method
 // look at second example
 
 // try catch syntax allows us to catch errors so that script instead of dying
