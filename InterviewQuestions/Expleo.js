@@ -1,9 +1,10 @@
 function word(str){
-    let palindrome = str.split().reverse().join()
+    let palindrome = str.split('').reverse().join('')
     console.log(str === palindrome)
 }
 word('madam')
 word('rotator')
+word('abhi')
 
 // reverse the string but not word
 let info = 'my name is abhijit' // output=> abhijit is name my

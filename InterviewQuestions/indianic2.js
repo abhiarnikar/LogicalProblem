@@ -24,23 +24,23 @@
 
 // 3.
  
-// TDD focuses on the implementation of the system
+// TDD focuses on the implementation of the system.
 
-// BDD explains the behavior of an application for the end-user
+// BDD explains the behavior of an application for the end-user.
 
 // 4
  
 // Here we use programing language to write test cases like java etc.
  
-// Here is use gherkin language like English
+// Here is use gherkin language like English.
 
 // 5
  
-// This approach is basically used for a small application like application have 4 to 6 pages
+// This approach is basically used for a small application like application have 4 to 6 pages.
  
 // This approach is basically used for a big application like application have more than 10 pages.
 // 6
  
-// If some functionality changes then it will impact more
+// If some functionality changes then it will impact more.
  
-// If some functionality changes then it will impact less than TDD
+// If some functionality changes then it will impact less than TDD.
