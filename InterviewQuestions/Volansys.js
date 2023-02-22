@@ -20,12 +20,12 @@ info('sachin')
 
 // 2) reverse the only string not the number
 
-let aa = "abhi123jit"
-let rev1 = ''
+// let aa = "abhi123jit"
+// let rev1 = ''
 
-for(let i=0;i<aa.length;i++){
-    if(aa[i] !=123){
-        rev1=aa[i]+rev1
-    }
-}
-console.log(rev1)
+// for(let i=0;i<aa.length;i++){
+//     if(! rev1.includes(321)){
+//         rev1=aa[i]+rev1
+//     }
+// }
+// console.log(rev1)

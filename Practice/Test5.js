@@ -637,32 +637,32 @@
 // krushna.City='Pune'
 // console.log(krushna)
 
-class father{
-    constructor(fn,ln){
-        this.firstname=fn
-        this.lastname=ln
-    }
-    display(){
-        console.log(this.firstname)
-    }
-}
+// class father{
+//     constructor(fn,ln){
+//         this.firstname=fn
+//         this.lastname=ln
+//     }
+//     display(){
+//         console.log(this.firstname)
+//     }
+// }
 
-class son extends father{
-    constructor(fn,ln,sfn){
-        super(fn,ln)
-        this.sfirstname=sfn
-    }
-    displaySon(){
-        console.log(this.sfirstname)
-    }
-}
+// class son extends father{
+//     constructor(fn,ln,sfn){
+//         super(fn,ln)
+//         this.sfirstname=sfn
+//     }
+//     displaySon(){
+//         console.log(this.sfirstname)
+//     }
+// }
 
-let abhi = new son('Ashok','Arnikar','Abhijit')
-console.log(abhi)
+// let abhi = new son('Ashok','Arnikar','Abhijit')
+// console.log(abhi)
 
-abhi.display()
-abhi.displaySon()
-console.log(abhi.firstname)
-console.log(abhi.sfirstname)
-console.log(abhi.lastname)
+// abhi.display()
+// abhi.displaySon()
+// console.log(abhi.firstname)
+// console.log(abhi.sfirstname)
+// console.log(abhi.lastname)
 
