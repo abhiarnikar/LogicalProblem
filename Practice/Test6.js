@@ -567,3 +567,36 @@
 // }
 // console.log(xx.join(' '))
 
+let city = 'Pune'
+switch(city){
+    case "Pune":
+        console.log("MH")
+    
+    case "Indore":
+        console.log('MP')  
+    
+    case "Delhi":
+        console.log('Delhi')    
+    
+    default:
+        console.log('Incorrect city name')    
+}
+
+console.log('*******************************')
+
+switch(city){
+    case "Pune":
+        console.log("MH")
+        break
+    
+    case "Indore":
+        console.log('MP')  
+        break
+    
+    case "Delhi":
+        console.log('Delhi')  
+        break  
+    
+    default:
+        console.log('Incorrect city name')    
+}
