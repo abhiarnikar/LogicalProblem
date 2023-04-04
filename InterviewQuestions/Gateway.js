@@ -52,18 +52,32 @@ greet(String)
 // Problem 3
 
 
-console.log("Starting Script") // 1
+// console.log("Starting Script") // 1
 
-setTimeout( () => {
+// setTimeout( () => {
 
-  console.log("3 seconds pause") // 3
+//   console.log("3 seconds pause") // 3
 
-},0)
+// },0)
 
-setTimeout( () => {
+// setTimeout( () => {
 
-  console.log("1 second pause") // 4
+//   console.log("1 second pause") // 4
 
-},0)
+// },0)
 
-console.log("Script end") // 2
+// console.log("Script end") // 2
+
+
+// Question- What if we pass two arguments to Rest parameter to function
+
+// last parameter is get into the array
+
+function abhi(firstname,...names){
+  console.log(firstname)
+  
+  console.log(names)
+}
+
+abhi('abhijit','ram','kaivaly','krushna')
+
